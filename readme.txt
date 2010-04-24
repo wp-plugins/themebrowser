@@ -1,0 +1,43 @@
+=== ThemeBrowser ===
+Contributors: mrwiblog
+Donate link: http://www.stillbreathing.co.uk/donate/
+Tags: themes, styles, templates, wpmu, multisite, showcase, advertise
+Requires at least: 2.7
+Tested up to: 2.9.3
+Stable tag: 0.1
+
+Show off the themes available for blogs in your WPMU site or Wordpress MultiSite with a simple shortcode in any post or page.
+
+== Description ==
+
+If you run a WPMU (called Wordpress MultiSite in version 3 or above) webite where people can create their own blogs and choose a theme, it would be great to show off the available themes before people sign up. That's always a been a bit hard to do, until now. This very simple plugin allows you to add a shortcode - [themebrowser] - to any post or page where you want the full list of enabled themes to show.
+
+The list does not include themes that you have disabled in Site Admin. The details shown are the theme name, description and a screenshot (themes without a screenshot are also not included).
+
+== Installation ==
+
+Install the plugin from the Wordpress plugin repository and activate. Then add the [themebrowser] shortcode to any post or page for the list of themes to be shown.
+
+== Frequently Asked Questions ==
+
+= Why did you write this plugin? =
+
+To scratch my own itch when developing [Wibsite.com](http://wibsite.com "The worlds most popular Wibsite"). Hopefully this plugin helps other developers too.
+
+= Does this plugin work with BuddyPress? =
+
+Yes, this plugin will work fine with BuddyPress.
+
+== Screenshots ==
+
+1. The plugin output as used on wibsite.com
+
+== Changelog ==
+
+0.1 The initial commit
+
+== Upgrade Notice ==
+
+= 0.1 =
+
+This is the initial version.
