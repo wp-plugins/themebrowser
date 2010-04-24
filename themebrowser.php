@@ -3,10 +3,19 @@
 Plugin Name: Theme Browser
 Plugin URI: http://www.stillbreathing.co.uk/projects/themebrowser/
 Description: Shows the list of installed themes in your site
-Version: 0.1
+Version: 0.2
 Author: Chris Taylor
 Author URI: http://www.stillbreathing.co.uk
 */
+
+require_once( "plugin-register.class.php" );
+$register = new Plugin_Register();
+$register->file = __FILE__;
+$register->slug = "themebrowser";
+$register->name = "Theme Browser";
+$register->version = "0.2";
+$register->developer = "Chris Taylor";
+$register->homepage = "http://www.stillbreathing.co.uk";
 
 // setup shortcodes
 // [themebrowser]
