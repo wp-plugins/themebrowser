@@ -3,7 +3,7 @@
 Plugin Name: Theme Browser
 Plugin URI: http://www.stillbreathing.co.uk/wordpress/themebrowser/
 Description: Shows the list of installed themes in your site
-Version: 0.3
+Version: 0.4
 Author: Chris Taylor
 Author URI: http://www.stillbreathing.co.uk
 */
@@ -13,7 +13,7 @@ $register = new Plugin_Register();
 $register->file = __FILE__;
 $register->slug = "themebrowser";
 $register->name = "Theme Browser";
-$register->version = "0.3";
+$register->version = "0.4";
 $register->developer = "Chris Taylor";
 $register->homepage = "http://www.stillbreathing.co.uk";
 

@@ -3,14 +3,14 @@ Contributors: mrwiblog
 Donate link: http://www.stillbreathing.co.uk/donate/
 Tags: buddypress, themes, styles, templates, wpmu, multisite, showcase, advertise
 Requires at least: 2.7
-Tested up to: 3.2.1
-Stable tag: 0.3
+Tested up to: 3.6
+Stable tag: 0.4
 
-Show off the themes available for blogs in your WPMU site or Wordpress MultiSite with a simple shortcode in any post or page.
+Show off the themes available for blogs in your Wordpress MultiSite with a simple shortcode in any post or page.
 
 == Description ==
 
-If you run a WPMU (called Wordpress MultiSite in version 3 or above) webite where people can create their own blogs and choose a theme, it would be great to show off the available themes before people sign up. That's always a been a bit hard to do, until now. This very simple plugin allows you to add a shortcode - [themebrowser] - to any post or page where you want the full list of enabled themes to show.
+If you run a Wordpress MultiSite network where people can create their own blogs and choose a theme, it would be great to show off the available themes before people sign up. That's always a been a bit hard to do, until now. This very simple plugin allows you to add a shortcode - [themebrowser] - to any post or page where you want the full list of enabled themes to show.
 
 You can also paginate the themes by adding a "perpage" attribute to the shortcode, like this: [themebrowser perpage="10"]
 
@@ -36,13 +36,8 @@ Yes, this plugin will work fine with BuddyPress.
 
 == Changelog ==
 
+0.4: Removed references to WPMU as no-one remembers that any more
 0.3: Added pagination
-0.2.1 Updated plugin URI. Added buddypress tag.
-0.2 Added Plugin Register
-0.1 The initial commit
-
-== Upgrade Notice ==
-
-= 0.1 =
-
-This is the initial version.
+0.2.1: Updated plugin URI. Added buddypress tag.
+0.2: Added Plugin Register
+0.1: The initial commit
