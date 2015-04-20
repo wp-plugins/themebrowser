@@ -3,8 +3,8 @@ Contributors: mrwiblog
 Donate link: http://www.stillbreathing.co.uk/donate/
 Tags: buddypress, themes, styles, templates, wpmu, multisite, showcase, advertise
 Requires at least: 2.7
-Tested up to: 3.6
-Stable tag: 0.4
+Tested up to: 4.2
+Stable tag: 0.5
 
 Show off the themes available for blogs in your Wordpress MultiSite with a simple shortcode in any post or page.
 
@@ -36,6 +36,7 @@ Yes, this plugin will work fine with BuddyPress.
 
 == Changelog ==
 
+0.5: Fixed deprecated code. Tested up to 4.2.
 0.4: Removed references to WPMU as no-one remembers that any more
 0.3: Added pagination
 0.2.1: Updated plugin URI. Added buddypress tag.

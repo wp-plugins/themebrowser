@@ -3,7 +3,7 @@
 Plugin Name: Theme Browser
 Plugin URI: http://www.stillbreathing.co.uk/wordpress/themebrowser/
 Description: Shows the list of installed themes in your site
-Version: 0.4
+Version: 0.5
 Author: Chris Taylor
 Author URI: http://www.stillbreathing.co.uk
 */
@@ -37,7 +37,7 @@ function themebrowser_shortcode( $atts ) {
 	$end = $start + $perpage;
 
 	// get all themes
-	$themes = get_themes();
+	$themes = wp_get_themes();
 	$allowed_themes = "";
 	// get allowed themes for WPMU
 	if ( function_exists( "get_site_option" ) ) {
@@ -56,7 +56,7 @@ function themebrowser_shortcode( $atts ) {
 			}
 		}
 	} else {
-		$themestoshow = $themes;
+		$themestoshow = array_values( $themes );
 	}
 	
 	// get the total number of themes to show
